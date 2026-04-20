@@ -1,0 +1,1 @@
+for i in {1..50}; do echo "Update ke-$i pada $(date)" >> commit_log.txt; git add commit_log.txt; git commit -m "feat: base quest commit ke-$i"; done
